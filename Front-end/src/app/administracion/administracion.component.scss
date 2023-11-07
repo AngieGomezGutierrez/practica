@@ -1,0 +1,97 @@
+.Header {
+  padding: 0px 0px 16px 0px;
+  // background-color: whitesmoke;
+  background: rgb(237, 237, 237);
+}
+.titulo {
+  padding-top: 20px;
+  color: grey;
+  font-size: 18px;
+}
+.sub-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(49, 49, 49);
+}
+.opcionesEstilo {
+  padding: 10px 0px 0px 16px !important; //ADAI
+}
+.opciones {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+.btnUsuario {
+  background-color: rgba(112, 134, 142, 0.578) !important;
+  color: whitesmoke;
+  margin-left: 40%;
+}
+.textoTotal {
+  margin: 30px;
+}
+.select-input {
+  display: block;
+  width: 18rem;
+  padding: 0.375rem 0.5rem 0.375rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: rgba(112, 134, 142, 0.578) !important;
+}
+.botonesColumn,
+.botonEdit,
+.botonDelete {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 10px;
+}
+.editarBtn,
+.eliminarBtn {
+  display: flex;
+  gap: 6px;
+  padding: 10px;
+}
+.botonesColumn .tabla {
+  margin: 20px 16px 16px 16px;
+}
+table {
+  width: 100%;
+}
+table th {
+  text-align: center;
+}
+table tr {
+  text-align: center;
+}
+table td {
+  text-align: center;
+}
+table tr:hover {
+  color: #212529;
+  background-color: #ced4da;
+}
+p {
+  margin: 0px;
+}
+
+.editarBtn:hover {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid green;
+  background: #00800047;
+}
+.eliminarBtn:hover {
+  cursor: pointer;
+  border: 1px solid red;
+  padding: 10px;
+  background: rgba(128, 0, 0, 0.278);
+}
